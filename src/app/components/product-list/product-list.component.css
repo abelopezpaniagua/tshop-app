@@ -1,0 +1,35 @@
+.card-container {
+  margin: 10px auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-width: 500px;
+}
+
+mat-header-cell,
+mat-cell {
+  text-align: left;
+  justify-content: left;
+  max-width: 300px;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.spinner-container {
+  height: 360px;
+  width: 390px;
+  position: fixed;
+}
+
+.spinner-container mat-spinner {
+  margin: 130px auto 0 auto;
+}
