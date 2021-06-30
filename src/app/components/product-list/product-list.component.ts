@@ -67,5 +67,7 @@ export class ProductListComponent implements OnInit, AfterViewInit {
 
   public redirectToDetails = (id: string) => {};
   public redirectToUpdate = (id: string) => {};
-  public redirectToDelete = (id: string) => {};
+  public onDelete = (id: string) => {
+    this.productService.deleteProduct(id).then((resp) => console.log(resp));
+  };
 }
